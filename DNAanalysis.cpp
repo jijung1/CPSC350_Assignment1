@@ -148,7 +148,7 @@ void DNAanalysis::writeFile() //function opens a file called yourname.out and pr
   ofstream ostream;
   ostream.open("jinjung.out",std::fstream::app);
   ostream << "\n\n------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------\n\n";
-  ostream << "Student Name: Jin Jung\nStudent ID: 2329401\n\nSummary statistics:\nLen Sum: " << this->lenSum() << endl; //output sum, mean, var, std dev, relative prob, bigram probs
+  ostream << "Student Name: Jin Jung\nStudent ID: 2329401\nStudent Email: jijung@chapman.edu\n\nSummary statistics:\nLen Sum: " << this->lenSum() << endl; //output sum, mean, var, std dev, relative prob, bigram probs
   ostream << "Len mean: " << this->lenMean() << "\nLen variance: "<< this->lenVar() << "\nLen Standard Dev: "<< this->lenStdDev()<<"\n\n";
   ostream << "Relative prob A: " << this->relProb('A') << "\nRelative prob T: "<< this->relProb('T')<<"\nRelative prob G: "<<this->relProb('G')<<"\nRelative prob C: "<<this->relProb('C')<<endl;
   ostream << "Bigram prob AA: "<<this->bigramProb('A','A')<<" Bigram prob AT: "<<this->bigramProb('A','T')<<" Bigram prob AG: "<<this->bigramProb('A','G')<<" Bigram prob AC: "<<this->bigramProb('A','C')<<endl;
