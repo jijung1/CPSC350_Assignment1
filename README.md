@@ -17,6 +17,9 @@ a. n/a
 4) References used to complete assignment
 a. Data Structures & Algorithms in C++ 2ed Goodrich
 b. http://www.cplusplus.com/reference/ios/ios/eof/
+c. https://stackoverflow.com/questions/43404159/concatenation-of-strings-is-replacing-first-few-characters
+d. http://www.cplusplus.com/reference/fstream/fstream/open/
+
 
 5) Instructions for running the assignment
 a. compile all .cpp files
